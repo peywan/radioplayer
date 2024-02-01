@@ -1,0 +1,32 @@
+#channels-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.channel-card {
+    width: 90%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.station {
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.station img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.station-info {
+    flex-grow: 1;
+}
+
+audio {
+    width: 100%;
+}
